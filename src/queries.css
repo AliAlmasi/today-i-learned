@@ -1,0 +1,28 @@
+@media (max-width: 1200px) {
+	.fact {
+		flex-direction: column;
+		align-items: flex-end;
+		gap: 12px;
+	}
+}
+@media (max-width: 1000px) {
+	body {
+		padding: 32px 48px 0;
+	}
+
+	.form {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.form input,
+	.form select {
+		width: auto;
+	}
+}
+@media (max-width: 900px) {
+	.main {
+		grid-template-columns: 1fr;
+		height: calc(100dvh - 48px - 68px - 40px);
+	}
+}
