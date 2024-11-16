@@ -23,6 +23,6 @@
 @media (max-width: 900px) {
 	.main {
 		grid-template-columns: 1fr;
-		height: calc(100dvh - 48px - 68px - 40px);
+		height: auto;
 	}
 }
