@@ -20,11 +20,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# vercel & local development
-.vercel
-.env*.local
-*.local
-
-# supabase api key
-/src/apikey.js
