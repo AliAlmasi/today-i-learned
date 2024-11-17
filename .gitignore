@@ -25,3 +25,6 @@ yarn-error.log*
 .vercel
 .env*.local
 *.local
+
+# supabase api key
+/src/apikey.js
